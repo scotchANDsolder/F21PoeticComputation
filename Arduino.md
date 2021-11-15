@@ -37,8 +37,10 @@ Features:
 <img src="https://makergram.com/blog/content/images/2020/04/WillingDishonestCirriped-small-1.gif">
 
 ## Practice Activity #1
+- Attach a LED to (the longer leg) to Pin 13 and (the shorter leg) to GND
 - Try changing the values in **delay(1000)**. What do you notice? 
 - **digitalWrite(HIGH)** turns the LED on while **digitalWrite(LOW)** turns it off. Can you create your own blinking pattern?
+
 
 
 
