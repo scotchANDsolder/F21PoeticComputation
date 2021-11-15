@@ -50,8 +50,17 @@ Unlike LEDs (which are controlled by an HIGH or LOW signal) servo motors are con
 <img src="https://user-images.githubusercontent.com/70717743/141709094-b782e91f-e2c6-4d15-959e-804b13bec1c3.png"> 
 (Source: https://www.meccanismocomplesso.org/en/arduino-servo-motors-how-they-work-and-how-to-control-them/)
 
+#### There are also 2 types of Servos:
+
+- **180**
+ <img src="ezgif.com-gif-maker (1).gif" width= "50%">
+ 
+- **360 (Continuous Rotation)**
+ <img src="ezgif.com-gif-maker.gif">
+
+
 #### How to use servos
-1. Open your servo and identify the colors of wires. Each servo has 3 wires Power, Signal, Ground. These colors will vary depending up your type of servo. This source will help: https://learn.sparkfun.com/tutorials/hobby-servo-tutorial/all#servo-motor-background.
+1. First, identify the colors of the wires of your servo. Each servo has 3 wires i.e. Power, Signal, Ground. These colors will vary depending up your type of servo. This source will help: https://learn.sparkfun.com/tutorials/hobby-servo-tutorial/all#servo-motor-background.
 <img src="https://cdn.sparkfun.com/r/600-600/assets/learn_tutorials/5/2/6/servo-color-code.jpg">
 
 2. Follow this tutorial to start using servos: https://www.arduino.cc/en/Tutorial/LibraryExamples/Sweep. 
