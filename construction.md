@@ -61,7 +61,7 @@ Flora Wearable Platform with conductive thread
  - Approved Materials: Paper, cardboar, acrylics, wood
 
 ### Resources for Acrylic Mechanism: 
-- Gear Generator: https://geargenerator.com/
+- Gear Generator: https://evolventdesign.com/pages/spur-gear-generator
 - Manipulating Acrylic: https://makezine.com/2015/10/29/skill-builder-acrylic/
 - Nylon Screws (Easy to work with): https://www.homedepot.com/b/Hardware-Fasteners-Screws/Nylon/N-5yc1vZc2b0Z1z1r7er
 
