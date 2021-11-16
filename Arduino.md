@@ -11,7 +11,7 @@ The Arduino ecosystem consists of 3 parts:
 
 
 
-## 	Anatomy of the Arduino UNO board
+### 	Anatomy of the Arduino UNO board
 At the core of this board is the ATMega328p microcontroller i.e. 'the brains'. This is the chip where your programs are uploaded to. 
 Features:
 - 14 Digital I/O (Input Output) Pins of which 6 are PWM (pulse width modulation)
@@ -38,34 +38,50 @@ Features:
 
 ## Practice Activity #1
 - Attach a LED to (the longer leg) to Pin 13 and (the shorter leg) to GND
-- Try changing the values in **delay(1000)**. What do you notice? 
-- **digitalWrite(HIGH)** turns the LED on while **digitalWrite(LOW)** turns it off. Can you create your own blinking pattern?
+- Try changing the values in `delay(1000)`. What do you notice? 
+- `digitalWrite(HIGH)` turns the LED on while `digitalWrite(LOW)` turns it off. Can you create your own blinking pattern?
 
 
 
 
 
-## Using Servos with Arduino
+## What are Servos?
 <img src ="https://i0.wp.com/randomnerdtutorials.com/wp-content/uploads/2018/05/giphy.gif?resize=480%2C270&quality=100&strip=all&ssl=1">
 
 Unlike LEDs (which are controlled by an HIGH or LOW signal) servo motors are controlled using a PWM (Pulse Width Modulated) signal. There are 6 pins that can output a PWM signal.
 <img src="https://user-images.githubusercontent.com/70717743/141709094-b782e91f-e2c6-4d15-959e-804b13bec1c3.png"> 
+
 (Source: https://www.meccanismocomplesso.org/en/arduino-servo-motors-how-they-work-and-how-to-control-them/)
 
-#### There are also 2 types of Servos:
+#### Servos come in 2 different flavors:
 
-- **180**
- <img src="ezgif.com-gif-maker (1).gif" width= "50%">
+- **180**: These servos can move to a specfic angle specified in the Arduino code.  
+ <img src="ezgif.com-gif-maker (1).gif" width= "30%">
  
-- **360 (Continuous Rotation)**
- <img src="ezgif.com-gif-maker.gif">
+- **360 (Continuous Rotation)**: We can only control the direction and the speed. Unlike 180 servos, these will be move continously. 
+ <img src="ezgif.com-gif-maker.gif" width="30%">
 
 
-#### How to use servos
+### How to use servos with Arduino
 1. First, identify the colors of the wires of your servo. Each servo has 3 wires i.e. Power, Signal, Ground. These colors will vary depending up your type of servo. This source will help: https://learn.sparkfun.com/tutorials/hobby-servo-tutorial/all#servo-motor-background.
-<img src="https://cdn.sparkfun.com/r/600-600/assets/learn_tutorials/5/2/6/servo-color-code.jpg">
+<img src="https://cdn.sparkfun.com/r/600-600/assets/learn_tutorials/5/2/6/servo-color-code.jpg" width="30%">
 
 2. Follow this tutorial to start using servos: https://www.arduino.cc/en/Tutorial/LibraryExamples/Sweep. 
+
+### Controlling the Servo
+
+`#include <Servo.h>` -> Must be included in the very top of your code
+
+`Servo myservo;`  -> *myservo* is an object of type *Servo*
+
+- For 180 Servos: myservo.write() controls the angle of the motor. For example:
+  - `myservo.write(75)` will move the servo to the 75 degree angle and stay there
+- For 360 Servos: myservo.write() controls the direction and speed. For example:
+  - `myservo.write(90)` will stop the servo. 
+  - `myservo.write(75)` will move the servo in *forward* direction at a *lower* speed
+  - `myservo.write(10)` will move the servo in *forward* direction at a *higher* speed
+  - `myservo.write(105)` will move the servo in *reverse* direction at a *lower* speed
+ -  `myservo.write(170)` will move the servo in *reverse* direction at a *higher* speed
 
 ## Practice Activity #2
 - How can you change the speed of your servo?
