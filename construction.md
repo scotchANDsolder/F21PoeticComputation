@@ -55,6 +55,15 @@ Flora Wearable Platform with conductive thread
 - Requires precision measurement and design
 - Difficult to manipulate, glue and join
 
+### Laser Cutter Usage: Epilog 50 Watt 
+- Maximum Thickness of material: 1/4 inch (6mm)
+- Laser Cutter Bed Size: 24 X 18 inches
+ - Approved Materials: Paper, cardboar, acrylics, wood
+
+### Resources for Acrylic Mechanism: 
+- Gear Generator: https://geargenerator.com/
+- Manipulating Acrylic: https://makezine.com/2015/10/29/skill-builder-acrylic/
+- Nylon Screws (Easy to work with): https://www.homedepot.com/b/Hardware-Fasteners-Screws/Nylon/N-5yc1vZc2b0Z1z1r7er
 
 
 ## Using Cardboard
@@ -65,7 +74,7 @@ Flora Wearable Platform with conductive thread
 
 **Cons**
 - Difficult to get precision (but this might not be a downside)
-- 'Cardboard' aesthetic is difficult to negate 
+- 'Cardboard' aesthetic is difficult to resolve 
 
 ### Resources for Cardboard Mechanism: 
 - Hummingbird Example: https://www.youtube.com/playlist?list=PLPF7p1VM8NT_0GTUVw-XRCtiuPDUGx1PF
