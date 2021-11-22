@@ -52,4 +52,4 @@ One way to categorize sensors is to group them by what *kind of information* the
 - Map Function: https://www.arduino.cc/reference/en/language/functions/math/map/
 
 # Class Activity
-- Create a circuit and write a corresponding program that uses connectes a sensor to a servo. In other words, have your servo react to your sensor data.
+- Create a circuit and write a corresponding program that connectes a sensor to a servo. In other words, have your servo react to your sensor data.
